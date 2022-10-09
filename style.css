@@ -1,93 +1,92 @@
 @import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&display=swap');
-
 html,
 body {
-  height: 100%;
+    height: 100%;
 }
 
 body {
-  font-family: "Space Grotesk", sans-serif;
-  font-weight: 600;
-  background: url("./img/bg.png");
-  display: flex;
-  align-items: center;
-  justify-content: center;
+    font-family: "Space Grotesk", sans-serif;
+    font-weight: 600;
+    background: url("./img/background.jpg");
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .container {
-  z-index: 1;
-  position: relative;
-  text-align: center;
+    z-index: 1;
+    position: relative;
+    text-align: center;
 }
 
 .overlay {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  background: rgba(0, 0, 0, .5);
-  z-index: 0;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, .5);
+    z-index: 0;
 }
 
 .pomodoro-options {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  gap: 10px;
-  margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    margin-bottom: 20px;
 }
 
 .pomodoro-controls {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  gap: 10px;
-  margin-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 20px;
 }
 
 .btn {
-  display: inline-block;
-  color: #fff;
-  text-align: center;
-  background-color: rgba(255, 255, 255, .05);
-  border: 1px solid #fff;
-  border-radius: 500px;
-  padding: 0.5rem 1rem;
-  text-transform: lowercase;
-  cursor: pointer;
+    display: inline-block;
+    color: #fff;
+    text-align: center;
+    background-color: rgba(255, 255, 255, .05);
+    border: 1px solid #fff;
+    border-radius: 500px;
+    padding: 0.5rem 1rem;
+    text-transform: lowercase;
+    cursor: pointer;
 }
 
 .btn:hover,
 .btn.active,
 .btn-big {
-  background-color: #fff;
-  border-color: #fff;
-  color: black;
+    background-color: #fff;
+    border-color: #fff;
+    color: #ab0058;
 }
 
 .btn-big {
-  font-size: 1.5rem;
-  font-weight: 500;
-  padding: 0.5rem 1rem;
+    font-size: 1.5rem;
+    font-weight: 500;
+    padding: 0.5rem 1rem;
 }
 
 .btn-big:hover {
-  background-color: rgba(255, 255, 255, .05);
-  border: 1px solid #fff;
-  color: #fff;
+    background-color: rgba(255, 255, 255, .05);
+    border: 1px solid #fff;
+    color: #fff;
 }
 
 #pomodoro-time {
-  color: white;
-  font-size: 8rem;
+    color: white;
+    font-size: 8rem;
 }
 
 .reset {
-  width: 36px;
-  height: 36px;
-  background: url("./img/restart.svg");
-  appearance: none;
-  border: 0;
-  cursor: pointer;
+    width: 36px;
+    height: 36px;
+    background: url("./img/restart.svg");
+    appearance: none;
+    border: 0;
+    cursor: pointer;
 }
